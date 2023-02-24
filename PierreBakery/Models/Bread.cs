@@ -1,6 +1,6 @@
 namespace PierreBakery.Models
 {
-  public class Bakery
+  public class Bread
   {
   }
 }
