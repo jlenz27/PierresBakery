@@ -26,8 +26,8 @@ namespace PierreBakery.Tests
         public void PastryPrice_ReturnsPriceOfFourPastry_int()
         {
             Pastry newPrice = new Pastry();
-            int expectedPrice = 4;
-            int userQuantity = 6;
+            int expectedPrice = 6;
+            int userQuantity = 4;
             int actualPrice = newPrice.pastryPrice(userQuantity);
             Assert.AreEqual(expectedPrice, actualPrice);
         }
