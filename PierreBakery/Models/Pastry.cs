@@ -4,16 +4,17 @@ namespace PierreBakery.Models
     {
         public int pastryAmount { get; set; }
 
-        public void pastry(int quantity)
+        public  Pastry(int pastryQuantity)
         {
+            pastryAmount = pastryQuantity;
 
         }
 
-        public int pastryPrice(int quantity)
+        public int pastryPrice(int pastryQuantity)
         {
-            int price = quantity * 2;
-            int discountPrice = (quantity / 4) * 2 ;
-            if (quantity >= 4)
+            int price = pastryQuantity * 2;
+            int discountPrice = (pastryQuantity / 4) * 2 ;
+            if (pastryQuantity >= 4)
             {
                 price = price - discountPrice;
                 return price;
