@@ -10,14 +10,14 @@ namespace PierreBakery.Tests
 
         public void PriceConstructor_CreatesInstanceOfBread_Bread()
         {
-            Bread newPrice = new Bread(5);
+            Bread newPrice = new Bread();
             Assert.AreEqual(typeof(Bread), newPrice.GetType());
         }
-        [TestMethod]
 
+        [TestMethod]
         public void breadPrice_ReturnsPriceOfBread_int()
         {
-            Bread newPrice = new Bread(5);
+            Bread newPrice = new Bread();
             int expectedPrice = 5;
             int userQuantity = 1;
             int actualPrice = newPrice.breadPrice(userQuantity);
