@@ -7,9 +7,12 @@ namespace PierreBakery.Tests
     public class BakeryTests
     {
         [TestMethod]
-        public void NameOfMethodWeAreTesting_DescriptionOfBehavior_ExpectedReturnValue()
-        {
-
+     
+ public void PriceConstructor_CreatesInstanceOfPrice_Price()
+    {
+      Bread newPrice = new Bread(5);
+      Assert.AreEqual(typeof(Bread), newPrice.GetType());
+    }
         }
     }
 }
