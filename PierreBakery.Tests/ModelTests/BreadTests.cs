@@ -35,7 +35,7 @@ namespace PierreBakery.Tests
         }
 
         [TestMethod]
-        public void breadPrice_ReturnPriceFor6Loafs_int()
+        public void breadPrice_ReturnPriceFor6Loaffs_int()
         {
             Bread newPrice = new Bread();
             int expectedPrice = 20;
