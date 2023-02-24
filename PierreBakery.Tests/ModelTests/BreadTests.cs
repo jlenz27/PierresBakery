@@ -4,15 +4,15 @@ using PierreBakery.Models;
 namespace PierreBakery.Tests
 {
     [TestClass]
-    public class BakeryTests
+    public class bread
     {
         [TestMethod]
-     
- public void PriceConstructor_CreatesInstanceOfPrice_Price()
-    {
-      Bread newPrice = new Bread(5);
-      Assert.AreEqual(typeof(Bread), newPrice.GetType());
-    }
+
+        public void PriceConstructor_CreatesInstanceOfPrice_Price()
+        {
+            Bread newPrice = new Bread();
+            Assert.AreEqual(typeof(Bread), newPrice.GetType());
         }
+
     }
 }
