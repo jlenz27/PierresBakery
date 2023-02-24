@@ -14,7 +14,7 @@ namespace PierreBakery.Tests
             Assert.AreEqual(typeof(Pastry), newPrice.GetType());
         }
   [TestMethod]
-        public void PastryPrice_ReturnsPriceOfPastryy_int()
+        public void PastryPrice_ReturnsPriceOfPastry_int()
         {
             Pastry newPrice = new Pastry();
             int expectedPrice = 2;
@@ -22,6 +22,15 @@ namespace PierreBakery.Tests
             int actualPrice = newPrice.pastryPrice(userQuantity);
             Assert.AreEqual(expectedPrice, actualPrice);
         }
+    [TestMethod]
+        public void PastryPrice_ReturnsPriceOfFourPastry_int()
+        {
+            Pastry newPrice = new Pastry();
+            int expectedPrice = 4;
+            int userQuantity = 6;
+            int actualPrice = newPrice.pastryPrice(userQuantity);
+            Assert.AreEqual(expectedPrice, actualPrice);
+        }
     }
+ }
 
-}
