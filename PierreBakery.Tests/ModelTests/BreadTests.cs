@@ -25,7 +25,7 @@ namespace PierreBakery.Tests
         }
 
         [TestMethod]
-        public void breadPrice_ReturnPriceFor3Loafs_inte()
+        public void breadPrice_ReturnPriceFor3Loafs_int()
         {
             Bread newPrice = new Bread();
             int expectedPrice = 10;
@@ -33,6 +33,17 @@ namespace PierreBakery.Tests
             int actualPrice = newPrice.breadPrice(userQuantity);
             Assert.AreEqual(expectedPrice, actualPrice);
         }
+
+        [TestMethod]
+        public void breadPrice_ReturnPriceFor6Loafs_int()
+        {
+            Bread newPrice = new Bread();
+            int expectedPrice = 20;
+            int userQuantity = 6;
+            int actualPrice = newPrice.breadPrice(userQuantity);
+            Assert.AreEqual(expectedPrice, actualPrice);
+        }
+
 
     }
 }
