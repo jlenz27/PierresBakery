@@ -8,11 +8,12 @@ namespace PierreBakery.Tests
     {
         [TestMethod]
 
-        public void PriceConstructor_CreatesInstanceOfPrice_Price()
+        public void PriceConstructor_CreatesInstanceOfBread_Bread()
         {
             Bread newPrice = new Bread();
             Assert.AreEqual(typeof(Bread), newPrice.GetType());
         }
+   
 
     }
 }
