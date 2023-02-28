@@ -8,6 +8,11 @@ namespace PierreBakery.Models
         {
             breadAmount = breadQuantity;
         }
+
+        public Bread()
+        {
+        }
+
         public int breadPrice(int breadQuantity)
         {
             int price = breadQuantity * 5;

@@ -10,6 +10,10 @@ namespace PierreBakery.Models
 
         }
 
+        public Pastry()
+        {
+        }
+
         public int pastryPrice(int pastryQuantity)
         {
             int price = pastryQuantity * 2;
