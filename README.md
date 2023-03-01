@@ -18,6 +18,8 @@ _{A C# application that creates a bakery that allows the user to see the price o
 * _Open your terminal and navigate to PierreBakery directory_
 * _In the Command Line run dotnet restore_
 * _In the Command Line run dotnet run to run the application_
+* _In your terminal navigate to PierreBakery.Tests and run dotnet test to see the tests of the program_
+
 
 ## Known Bugs
 
