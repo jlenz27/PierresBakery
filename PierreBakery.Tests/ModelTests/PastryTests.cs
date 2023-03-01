@@ -23,7 +23,7 @@ namespace PierreBakery.Tests
             Assert.AreEqual(expectedPrice, actualPrice);
         }
         [TestMethod]
-        public void PastryPrice_ReturnsPriceOfFourPastryy_int()
+        public void PastryPrice_ReturnsPriceOfFourPastry_int()
         {
             Pastry newPrice = new Pastry();
             int expectedPrice = 6;
